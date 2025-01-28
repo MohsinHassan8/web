@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/contact-me">
+    <!--Username: <input type="text" name="username" value="Batti">-->
+    <label for="username">Username: </label>
+    <input type="text" id="username" name="username"><br>
+    <label for="user-pass" >Password: </label>
+    <input type="password" id="user-pass" name="user-pass"><br>
+    <label for="male">Male : </label>
+    <input type="radio" id="male" name="gender" value="male">
+    <!--value is assigned to name and then submitted-->
+    <label for="female">Female : </label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="other">Other : </label>
+    <input type="radio" id="other" name="gender" value="other">
+    <br>
+
+    <label for="male">Male : </label>
+    <input type="checkbox" id="male" name="gender" value="male">
+    <!--value is assigned to name and then submitted-->
+    <label for="female">Female : </label>
+    <input type="checkbox" id="female" name="gender" value="female">
+    <label for="other">Other : </label>
+    <input type="checkbox" id="other" name="gender" value="other">
+
+    <br>
+    <label for="fruit">Choose a fruit : </label>
+    <select id="fruit" name="fruit">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+    </select> 
+    <br><br>
+    <textarea id = "Batti" name="Batti" rows="4" cols="100">
+        Default Batti.
+    </textarea>
+
+  </form>
+</body>
+</html>
